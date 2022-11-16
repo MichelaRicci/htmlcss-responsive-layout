@@ -10,7 +10,7 @@
 /* Generics */
 
 body {
-    font-family: sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .border {
@@ -18,9 +18,13 @@ body {
 }
 
 section {
-    height: 100vh;
+    min-height: 100vh;
 }
 
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
 
 /* Header */
 
@@ -29,7 +33,7 @@ header {
 }
 
 .navbar {
-    height: 100px;
+    height: 60px;
 
     display: flex;
     align-items: center;
@@ -46,6 +50,37 @@ header {
 .bg-violet {
     background-color: #9792E3;
 }
+
+
+/* Row */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-bottom: 30px;
+}
+
+.col {
+    flex-basis: calc(100% / 3);
+    border: 1px dashed black;
+
+    padding: 10px;
+}
+
+.large-col {
+    flex-basis: calc(100% / 3 * 2);
+
+}
+
+.card {
+    min-height: 350px;
+    background-color: #B4DDFF;
+    border-radius: 20px;
+
+    padding: 24px;
+}
+
 
 
 /* Footer */
