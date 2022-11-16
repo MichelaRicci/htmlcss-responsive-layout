@@ -66,17 +66,17 @@ header {
     margin-bottom: 30px;
 }
 
-.col {
+.row > * {
     border: 1px dashed black;
     padding: 10px;  
 
 }
 
-#demo-sec .col {
+.col {
     flex-basis: calc(100% / 3);
 }
 
-#demo-sec .colx2 {
+.colx2 {
     flex-basis: calc(100% / 3 * 2);
 
 }
@@ -92,12 +92,12 @@ header {
 
 /* Section 2 column */
 
-#col50 .col {
+.col50 {
     width: calc(100% / 2);
 
 }
 
-#col50 .card {
+.col50 .card {
     min-height: 100vh;
 }
 
@@ -107,9 +107,6 @@ header {
     background-color: pink;
     min-height: 200px;
     text-align: center;
-
-
-    border-radius: 20px;
 }
 
 .card-container {
@@ -118,7 +115,6 @@ header {
 
     padding: 15px 0;
 
-    border-radius: 20px;
 }
 
 .small-col {
