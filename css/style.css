@@ -26,6 +26,11 @@ section {
     margin: 0 auto;
 }
 
+.smaller-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 /* Header */
 
 header {
@@ -62,13 +67,16 @@ header {
 }
 
 .col {
-    flex-basis: calc(100% / 3);
     border: 1px dashed black;
+    padding: 10px;  
 
-    padding: 10px;
 }
 
-.large-col {
+#demo-sec .col {
+    flex-basis: calc(100% / 3);
+}
+
+#demo-sec .large-col {
     flex-basis: calc(100% / 3 * 2);
 
 }
@@ -79,9 +87,18 @@ header {
     border-radius: 20px;
 
     padding: 24px;
+
 }
 
 
+#col50 .col {
+    width: calc(100% / 2);
+
+}
+
+#col50 .card {
+    min-height: 100vh;
+}
 
 /* Footer */
 
