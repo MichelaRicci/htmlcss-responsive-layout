@@ -17,9 +17,9 @@ body {
     border: 2px dashed black;
 }
 
-section {
+/* section {
     min-height: 100vh;
-}
+} */
 
 .container {
     max-width: 900px;
@@ -128,19 +128,33 @@ header {
     background-color: #9792E3;
 }
 
+/* 30% width section */
+
+.w30-container {
+    width: 30%;
+    margin: 0 auto;
+
+}
+
 
 /* Footer */
 
 footer {
     background-color: #333333;
+    color: #ffffff;
 }
 
 .footer-top {
-    height: 150px;
+    /* height: 150px; */
+
+    padding-top: 20px;
+
 }
 
 .footer-bottom {
-    height: 150px;
+    /* height: 150px; */
+
+    padding: 20px 0;
 }
 
 
@@ -150,9 +164,17 @@ footer {
         flex-direction: column;
     }
 
-    .col {
+    .col, .col50 {
         width: 100%;
         margin: 0 auto;
     }
+
+    .w30-container {
+        width: 90%;
+        margin: 0 auto;
+    
+    }
+
+
 
 }
