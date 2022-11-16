@@ -12,16 +12,21 @@
 body {
     font-family: sans-serif;
 }
-  
-header {
-    background-color: #0085FD;
-}
 
 .border {
     border: 2px dashed black;
 }
 
+section {
+    height: 100vh;
+}
+
+
 /* Header */
+
+header {
+    background-color: #0085FD;
+}
 
 .navbar {
     height: 100px;
@@ -30,3 +35,30 @@ header {
     align-items: center;
     justify-content: space-between;
 }
+
+
+/* Section */
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.bg-violet {
+    background-color: #9792E3;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #333333;
+}
+
+.footer-top {
+    height: 150px;
+}
+
+.footer-bottom {
+    height: 150px;
+}
+
