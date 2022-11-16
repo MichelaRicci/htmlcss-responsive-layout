@@ -79,6 +79,8 @@ header {
 
 }
 
+/* Benefits */
+
 .card {
     min-height: 350px;
     background-color: #B4DDFF;
@@ -109,26 +111,24 @@ header {
     text-align: center;
 }
 
-.card-container {
+.col-container {
     display: flex;
     min-height: 200px;
 
-    padding: 15px 0;
+    margin: 30px 0;
 
     border-radius: 20px;
 
-    border: 2px dashed black;
+    background-color: #9792E3;
 
 }
 
 .small-col {
     flex-basis: 20%;
-    background-color: #B4DDFF;
 }
 
 .large-col {
     flex-basis: 80%;
-    background-color: #9792E3;
 }
 
 
@@ -174,8 +174,7 @@ footer {
         content: "\f0c9";
     }
 
-
-
+    /* Benefits */
     
 }
 
