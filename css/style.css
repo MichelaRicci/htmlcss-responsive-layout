@@ -46,7 +46,7 @@ header {
 }
 
 
-/* Section */
+/* Section colors */
 
 .bg-white {
     background-color: #ffffff;
@@ -76,7 +76,7 @@ header {
     flex-basis: calc(100% / 3);
 }
 
-#demo-sec .large-col {
+#demo-sec .colx2 {
     flex-basis: calc(100% / 3 * 2);
 
 }
@@ -90,6 +90,7 @@ header {
 
 }
 
+/* Section 2 column */
 
 #col50 .col {
     width: calc(100% / 2);
@@ -99,6 +100,37 @@ header {
 #col50 .card {
     min-height: 100vh;
 }
+
+/* Testimonials Section */
+
+.text-box {
+    background-color: pink;
+    min-height: 200px;
+    text-align: center;
+
+
+    border-radius: 20px;
+}
+
+.card-container {
+    display: flex;
+    min-height: 200px;
+
+    padding: 15px 0;
+
+    border-radius: 20px;
+}
+
+.small-col {
+    flex-basis: 20%;
+    background-color: #B4DDFF;
+}
+
+.large-col {
+    flex-basis: 80%;
+    background-color: #9792E3;
+}
+
 
 /* Footer */
 
