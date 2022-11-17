@@ -135,7 +135,7 @@ h6 {
     margin: 50px 0;
 }
 
-.mbt-100 {
+.mtb-100 {
     margin: 100px 0;
 }
 
@@ -145,6 +145,10 @@ h6 {
 
 .mt-150 {
     margin-top: 150px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
 }
 
 /* Header */
@@ -424,8 +428,12 @@ a {
 
 }
 
-#get-started span, h4 {
+#get-started h4 {
     color: #ffffff;
+}
+
+#get-started p {
+    font-size: 12px;
 }
 
 #get-started a {
@@ -441,6 +449,7 @@ a {
 footer {
     background-color: #333333;
     color: #ffffff;
+    text-align: center;
 }
 
 .footer-top {
@@ -456,6 +465,10 @@ footer {
     padding: 20px 0;
 }
 
+#footer p {
+    font-size: 12px;
+    margin: 0 30px;
+}
 
 @media screen and (max-width: 768px) {
 
