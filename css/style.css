@@ -42,7 +42,9 @@ body {
     text-align: center;
 }
 
-
+section {
+    padding: 30px 0;
+}
 
 /* Buttons */
 
@@ -57,7 +59,6 @@ body {
 .white-button {
     background-color: #ffffff;
     color: #000000;
-    padding: 7px 12px;
 }
 
 .blue-button {
@@ -67,6 +68,15 @@ body {
 
 .purple-button {
     background-color: #9792E3;
+}
+
+.small-button {
+    padding: 7px 12px;
+}
+
+.big-button {
+    padding: 18px 55px;
+    border-radius: 30px;
 }
 
 
@@ -104,6 +114,11 @@ h6 {
 .uppercase {
     text-transform: uppercase;
 }
+
+.text-yellow {
+    color: #FDC15E;
+}
+
 
 /* Margin */
 
@@ -409,6 +424,17 @@ a {
 
 }
 
+#get-started span, h4 {
+    color: #ffffff;
+}
+
+#get-started a {
+    font-weight: bold;
+
+    margin-bottom: 15px;
+}
+
+
 
 /* Footer */
 
@@ -454,6 +480,14 @@ footer {
 
     #benefits .col {
         flex-basis: calc(100% / 2);
+    }
+
+    #about-us .row > * {
+        flex-basis: calc(100% / 2);
+    }
+
+    .w30-container {
+        width: 100%;
     }
 
 }
