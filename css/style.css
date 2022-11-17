@@ -28,6 +28,17 @@ body {
     margin: 0 auto;
 }
 
+
+.fa-solid {
+    font-size: 68px;
+    text-align: center;
+    color: #0085FD;
+}
+
+.text-center {
+    text-align: center;
+}
+
 /* Buttons */
 
 .button {
@@ -46,6 +57,18 @@ body {
 .blue-button {
     background-color: #0085FD;
     color: #ffffff;
+    padding: 7px 30px;
+}
+
+/* Text */
+
+h3 {
+    color: #0085FD;
+}
+
+p {
+    color: #688194;
+    font-weight: bold;
 }
 
 /* Margin */
@@ -125,15 +148,24 @@ a {
 
 }
 
-/* Benefits */
-
 .card {
-    min-height: 350px;
+    /* min-height: 350px; */
     background-color: #B4DDFF;
     border-radius: 20px;
 
     padding: 24px;
 
+}
+
+.card-flex {
+    display: flex;
+    padding-bottom: 0;
+}
+
+.card-flex > img {
+    width: 50%;
+
+    margin-top: 30px;
 }
 
 
@@ -218,6 +250,10 @@ footer {
         display: inline-block;
         font: var(--fa-font-solid);
         content: "\f0c9";
+    }
+
+    .card-flex {
+        display: block;
     }
 
 
