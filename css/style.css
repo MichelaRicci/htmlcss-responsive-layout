@@ -43,6 +43,16 @@ body {
     color: #000000;
 }
 
+.blue-button {
+    background-color: #0085FD;
+    color: #ffffff;
+}
+
+/* Margin */
+
+.mtb-30 {
+    margin: 30px 0;
+}
 
 /* Header */
 
@@ -210,9 +220,17 @@ footer {
         content: "\f0c9";
     }
 
-    /* Benefits */
-    
+
+    #planning .col50 {
+        width: 100%;
+    }
+
+    #benefits .col {
+        flex-basis: calc(100% / 2);
+    }
+
 }
+
 
 @media screen and (max-width: 480px) {
 
@@ -230,7 +248,7 @@ footer {
         margin: 0 auto;
     }
 
-    #w50-col .card {
+    #planning .card {
         width: 100%;
     }
 
